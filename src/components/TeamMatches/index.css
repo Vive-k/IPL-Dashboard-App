@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.teamMatches-page {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.recent-matches-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  list-style-type: none;
+}

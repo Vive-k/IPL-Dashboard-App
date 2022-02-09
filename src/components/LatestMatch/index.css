@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.latest-match-card {
+  background-color: #1e293b;
+  border-radius: 30px;
+}
+
+.match-detail {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #475569;
+}
+
+.class1 {
+  padding: 30px;
+}
+
+.image-kontainer {
+  width: 50%;
+  padding: 20px;
+}
+
+.image-latest-match {
+  width: 50%;
+}
+
+@media screen and (min-width: 786px) {
+  .latest-match-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .match-detail {
+    border: none;
+  }
+
+  .image-kontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
