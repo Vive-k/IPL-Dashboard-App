@@ -12,9 +12,15 @@
 }
 
 .image-match-card {
-  width: 160px;
+  width: 25%;
 }
 
 .match-status-match-card {
   color: #e31a1a;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    width: 30%;
+  }
 }
